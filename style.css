@@ -1,0 +1,95 @@
+.header{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+ol li{
+    display: inline;
+    font-size: 30px;
+    font-style: normal;
+    list-style: none;
+    color: white;
+    margin: 20px;
+    border: 1px green solid;
+    transition: 0.9s ease;
+}
+ol li a{
+    text-decoration:none ;
+    color: green;
+    padding: 5px 20px 0px 20px;
+}
+ol li a:hover{
+    background-color: rgb(32, 13, 1);
+    color: teal;
+    padding: 0px 10px 0px 10px ;
+    size: 10px;
+}
+.container{
+    background-image: url(imgs/mbel-graphix-KB.jpg);
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    height: 88vh;
+    background-size: cover;
+    margin: 0% ;
+    padding: 0% ; 
+}
+.push{
+    margin-left: auto;
+    justify-content: left;
+}
+.mbel{
+    background-color: teal;
+    display: grid;
+    grid-column: 20px;
+    grid-template-columns: repeat(auto, minmax(350px,1fr));
+    size: cover;
+}
+
+.footer{
+    background-color:gray;
+}
+.container img{
+
+    border-style: solid ;
+    border-color: lightblue;
+    border-radius: 180px;
+    width: 30vh;
+    height: 30vh;
+    margin-left: 85vh;
+    margin-top: 20px;
+}
+body{
+    margin: none;
+    padding: none;
+
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    border: rgb(253, 8, 8);
+    font-size: 30px;
+    border-style: solid;
+    border-color: rgb(26, 197, 112);
+    padding: 20px 20px 20px 20px;
+    margin: 7vh 65vh;
+}.button{
+    padding: 5px 5px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(116, 28, 57);
+    margin-left: 50vh;
+    background-color: rgb(22, 15, 1);
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: white;
+    color: turquoise;
+}
